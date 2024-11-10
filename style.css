@@ -1,0 +1,101 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #009688;
+    color: #fff;
+    padding: 60px;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 2.5em;
+}
+
+/* Services Section */
+#services {
+    padding: 50px;
+    text-align: center;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.service-item h2 {
+    font-size: 1.8em;
+    color: #009688;
+}
+
+.service-item p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contact Form */
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00796b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
